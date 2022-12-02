@@ -1,0 +1,21 @@
+{
+  "name": "cornell_question",
+  "displayName": "Cornell question",
+  "description": "Cornell Question Grammar Injection",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [{
+      "scopeName": "cornell-question.injection",
+      "path": "./syntaxes/injection.json",
+      "injectTo": [
+        "text.html.markdown"
+      ]
+    }]
+  }
+}

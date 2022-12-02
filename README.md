@@ -35,3 +35,9 @@ settings.json
 ```bash
 vsce package
 ```
+
+## Example
+
+Q: what do this extension do?
+
+A: do {{syntax highlight}} for {{cornell}}(which method?) notetaking and {{supermemo Q&A}}

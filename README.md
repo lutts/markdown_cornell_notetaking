@@ -8,7 +8,22 @@ settings.json
             {
                 "scope": "cornell.question",
                 "settings": {
-                    "foreground": "#ff6600"
+                    "foreground": "#ff6600",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "cornell.answer",
+                "settings": {
+                    "foreground": "#ff6600",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "supermemo.cloze",
+                "settings": {
+                    "foreground": "#FF8000",
+                    "fontStyle": "bold"
                 }
             }
         ]

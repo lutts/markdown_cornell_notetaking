@@ -10,6 +10,14 @@
 			{
 				"match": "^(q|Q):.*$",
 				"name": "cornell.question"
+			},
+			{
+				"match": "(a|A):",
+				"name": "cornell.answer"
+			},
+			{
+				"match": "{{(.*?)}}((?:\\([^)]*?\\))?)",
+				"name": "supermemo.cloze"
 			}
 		]
 	  }

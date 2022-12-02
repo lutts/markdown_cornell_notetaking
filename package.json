@@ -23,6 +23,11 @@
         "id": "cornell",
         "superType": "string",
         "description": "cornell note taking string."
+      },
+      {
+        "id": "supermemo",
+        "superType": "string",
+        "description": "supermemo string"
       }
     ],
     "grammars": [{

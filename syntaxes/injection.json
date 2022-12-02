@@ -8,7 +8,7 @@
 	  "cornell-question": {
 		"patterns": [
 			{
-				"match": "^(q|Q):.*$",
+				"match": "^(q|Q): .*$",
 				"name": "cornell.question"
 			},
 			{

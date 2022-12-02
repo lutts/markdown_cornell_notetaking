@@ -8,8 +8,8 @@
 	  "cornell-question": {
 		"patterns": [
 			{
-				"match": "^q:.*$",
-				"name": "keyword.cornell.question"
+				"match": "^(q|Q):.*$",
+				"name": "cornell.question"
 			}
 		]
 	  }

@@ -10,6 +10,13 @@
     "Programming Languages"
   ],
   "contributes": {
+    "semanticTokenTypes": [
+      {
+        "id": "cornell",
+        "superType": "string",
+        "description": "cornell note taking string."
+      }
+    ],
     "grammars": [{
       "scopeName": "cornell-question.injection",
       "path": "./syntaxes/injection.json",

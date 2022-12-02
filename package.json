@@ -1,8 +1,16 @@
 {
-  "name": "cornell_question",
+  "name": "cornell-question",
   "displayName": "Cornell question",
   "description": "Cornell Question Grammar Injection",
   "version": "0.0.1",
+  "publisher": "Lutts Cao",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/lutts/markdown_cornell_notetaking.git"
+	},
+	"bugs": {
+		"url": "https://github.com/lutts/markdown_cornell_notetaking/issues"
+	},
   "engines": {
     "vscode": "^1.73.0"
   },

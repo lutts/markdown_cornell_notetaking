@@ -12,7 +12,7 @@
 				"name": "cornell.question"
 			},
 			{
-				"match": "(a|A):",
+				"match": "^(a|A): ",
 				"name": "cornell.answer"
 			},
 			{

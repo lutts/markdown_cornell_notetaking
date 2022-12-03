@@ -1,6 +1,6 @@
 {
 	"scopeName": "cornell-question.injection",
-	"injectionSelector": "L:text.html.markdown",
+	"injectionSelector": "L:meta.paragraph.markdown",
 	"patterns": [
 	  { "include": "#cornell-question" }
 	],
@@ -8,8 +8,15 @@
 	  "cornell-question": {
 		"patterns": [
 			{
-				"match": "^(q|Q): .*$",
-				"name": "cornell.question"
+				"name": "cornell.question",
+				"begin": "^(q|Q): ",
+				"end": "\n",
+				"patterns": [
+					{
+						"include": "text.html.markdown"
+					}
+				]
+
 			},
 			{
 				"match": "^(a|A): ",

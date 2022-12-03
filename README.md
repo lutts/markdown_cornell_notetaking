@@ -40,4 +40,6 @@ vsce package
 
 Q: what do this extension do?
 
-A: do {{syntax highlight}} for {{cornell}}(which method?) notetaking and {{supermemo Q&A}}
+A: do {{syntax highlight}} for {{cornell}}(which method?) notetaking and {{supermemo Q&A}} with *italic* and **bold** text
+
+do {{syntax highlight}} for {{cornell}}(which method?) notetaking and {{supermemo Q&A}} with *italic* and **bold** text

@@ -2,7 +2,7 @@
   "name": "cornell-question",
   "displayName": "Cornell question",
   "description": "Cornell Question Grammar Injection",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Lutts Cao",
 	"license": "MIT",
 	"repository": {
@@ -18,18 +18,6 @@
     "Programming Languages"
   ],
   "contributes": {
-    "semanticTokenTypes": [
-      {
-        "id": "cornell",
-        "superType": "string",
-        "description": "cornell note taking string."
-      },
-      {
-        "id": "supermemo",
-        "superType": "string",
-        "description": "supermemo string"
-      }
-    ],
     "grammars": [{
       "scopeName": "cornell-question.injection",
       "path": "./syntaxes/injection.json",

@@ -1,0 +1,39 @@
+{
+	"scopeName": "cornell-answer.injection",
+	"injectionSelector": "L:meta.paragraph.markdown",
+	"patterns": [
+	  { "include": "#cornell-answer" }
+	],
+	"repository": {
+	  "cornell-answer": {
+		"patterns": [
+			{
+				"match": "(^|\\G)(a|A): ",
+				"name": "cornell.answer"
+			},
+			{
+				"name": "supermemo.cloze",
+                "match": "{{2}(.*?)}{2}((?:\\([^)]*?\\))?)",
+				"captures": {
+                    "1": {
+                        "patterns": [
+                            {
+                                "include": "text.html.markdown#inline"
+                            }
+                        ]
+                    },
+					"2": {
+						"name": "supermemo.cloze.hints",
+                        "patterns": [
+                            {
+                                "include": "text.html.markdown#inline"
+                            }
+                        ]
+					}
+				}
+			}
+		]
+	  }
+	}
+  }
+  

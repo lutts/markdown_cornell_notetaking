@@ -1,6 +1,6 @@
 {
 	"scopeName": "cornell-question.injection",
-	"injectionSelector": "L:meta.paragraph.markdown",
+	"injectionSelector": "L:text.html.markdown",
 	"patterns": [
 	  { "include": "#cornell-question" }
 	],
@@ -9,22 +9,13 @@
 		"patterns": [
 			{
 				"name": "cornell.question",
-				"begin": "^(q|Q): ",
-				"end": "\n",
+				"begin": "(^|\\G)(q|Q): (?=\\S)",
 				"patterns": [
 					{
 						"include": "text.html.markdown"
 					}
-				]
-
-			},
-			{
-				"match": "^(a|A): ",
-				"name": "cornell.answer"
-			},
-			{
-				"match": "{{(.*?)}}((?:\\([^)]*?\\))?)",
-				"name": "supermemo.cloze"
+				],
+				"while": "(^|\\G)((?=\\s*[-=]{3,}\\s*$)|[ ]{4,}(?=\\S))"
 			}
 		]
 	  }

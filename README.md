@@ -9,21 +9,24 @@ settings.json
                 "scope": "cornell.question",
                 "settings": {
                     "foreground": "#ff6600",
-                    "fontStyle": "bold"
                 }
             },
             {
                 "scope": "cornell.answer",
                 "settings": {
                     "foreground": "#ff6600",
-                    "fontStyle": "bold"
                 }
             },
             {
                 "scope": "supermemo.cloze",
                 "settings": {
                     "foreground": "#FF8000",
-                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "supermemo.cloze.hints",
+                "settings": {
+                    "foreground": "#C04040",
                 }
             }
         ]
@@ -38,8 +41,6 @@ vsce package
 
 ## Example
 
-Q: what do this extension do?
+Q: do normal markdown syntax, such as *italic*, **bold**, working in Q&A?
 
-A: do {{syntax highlight}} for {{cornell}}(which method?) notetaking and {{supermemo Q&A}} with *italic* and **bold** text
-
-do {{syntax highlight}} for {{cornell}}(which method?) notetaking and {{supermemo Q&A}} with *italic* and **bold** text
+A: yes, {{syntax *highlight*}} for {{**normal** markdown}}(such as *italic*), or **bold** is not affected.

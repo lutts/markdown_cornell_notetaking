@@ -1,29 +1,38 @@
 {
-  "name": "cornell-question",
-  "displayName": "Cornell question",
-  "description": "Cornell Question Grammar Injection",
+  "name": "cornell-supermemo-qa",
+  "displayName": "Cornell/Supermemo Q&A",
+  "description": "Cornell/Suppermemo Q&A Grammar Injection",
   "version": "0.0.2",
   "publisher": "Lutts Cao",
-	"license": "MIT",
-	"repository": {
-		"url": "https://github.com/lutts/markdown_cornell_notetaking.git"
-	},
-	"bugs": {
-		"url": "https://github.com/lutts/markdown_cornell_notetaking/issues"
-	},
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/lutts/markdown_cornell_notetaking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lutts/markdown_cornell_notetaking/issues"
+  },
   "engines": {
     "vscode": "^1.73.0"
   },
   "categories": [
-    "Programming Languages"
+    "Other"
   ],
   "contributes": {
-    "grammars": [{
-      "scopeName": "cornell-question.injection",
-      "path": "./syntaxes/injection.json",
-      "injectTo": [
-        "text.html.markdown"
-      ]
-    }]
+    "grammars": [
+      {
+        "scopeName": "cornell-question.injection",
+        "path": "./syntaxes/injection.json",
+        "injectTo": [
+          "text.html.markdown"
+        ]
+      },
+      {
+        "scopeName": "cornell-answer.injection",
+        "path": "./syntaxes/answer_injection.json",
+        "injectTo": [
+          "text.html.markdown"
+        ]
+      }
+    ]
   }
 }

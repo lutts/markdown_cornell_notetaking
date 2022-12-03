@@ -44,3 +44,5 @@ vsce package
 Q: do normal markdown syntax, such as *italic*, **bold**, working in Q&A?
 
 A: yes, {{syntax *highlight*}} for {{**normal** markdown}}(such as *italic*), or **bold** is not affected.
+
+![example](data/example.png)

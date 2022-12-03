@@ -3,24 +3,24 @@
 settings.json
 
 ```json
-   "editor.tokenColorCustomizations": {
+    "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
                 "scope": "cornell.question",
                 "settings": {
-                    "foreground": "#FF8000",
+                    "foreground": "#D19000",
                 }
             },
             {
                 "scope": "cornell.answer",
                 "settings": {
-                    "foreground": "#FF8000",
+                    "foreground": "#D19000",
                 }
             },
             {
                 "scope": "supermemo.cloze",
                 "settings": {
-                    "foreground": "#FFC000",
+                    "foreground": "#F04040",
                 }
             },
             {

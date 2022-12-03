@@ -3,32 +3,44 @@
 settings.json
 
 ```json
-    "editor.tokenColorCustomizations": {
+   "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
                 "scope": "cornell.question",
-                "settings": {
-                    "foreground": "#ff6600",
-                }
-            },
-            {
-                "scope": "cornell.answer",
-                "settings": {
-                    "foreground": "#ff6600",
-                }
-            },
-            {
-                "scope": "supermemo.cloze",
                 "settings": {
                     "foreground": "#FF8000",
                 }
             },
             {
+                "scope": "cornell.answer",
+                "settings": {
+                    "foreground": "#FF8000",
+                }
+            },
+            {
+                "scope": "supermemo.cloze",
+                "settings": {
+                    "foreground": "#FFC000",
+                }
+            },
+            {
                 "scope": "supermemo.cloze.hints",
                 "settings": {
-                    "foreground": "#C04040",
+                    "foreground": "#C04000",
                 }
-            }
+            },
+            {
+                "scope": "markup.italic.markdown",
+                "settings": {
+                    "foreground": "#00A000",
+                }
+            },
+            {
+                "scope": "punctuation.definition.italic.markdown",
+                "settings": {
+                    "foreground": "#00A000",
+                }
+            },
         ]
     },
 ```

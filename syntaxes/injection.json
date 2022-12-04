@@ -9,10 +9,15 @@
 		"patterns": [
 			{
 				"name": "cornell.question",
-				"begin": "(^|\\G)(q|Q): (?=\\S)",
+				"begin": "(^|\\G)((?:q|Q):) (?=\\S)",
+				"beginCaptures": {
+					"2": {
+						"name": "cornell.question.marker"
+					}
+				},
 				"patterns": [
 					{
-						"include": "text.html.markdown"
+						"include": "text.html.markdown#paragraph"
 					}
 				],
 				"while": "(^|\\G)((?=\\s*[-=]{3,}\\s*$)|[ ]{4,}(?=\\S))"

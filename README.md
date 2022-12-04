@@ -12,9 +12,15 @@ settings.json
                 }
             },
             {
+                "scope": "cornell.question.marker",
+                "settings": {
+                    "foreground": "#FF8000",
+                }
+            },
+            {
                 "scope": "cornell.answer",
                 "settings": {
-                    "foreground": "#D19000",
+                    "foreground": "#FF8000",
                 }
             },
             {

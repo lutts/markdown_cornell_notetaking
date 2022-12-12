@@ -8,7 +8,7 @@
 	  "cornell-answer": {
 		"patterns": [
 			{
-				"match": "(^|\\G)(a|A): ",
+				"match": "(^|\\G)(a|A):( |$)",
 				"name": "cornell.answer"
 			},
 			{

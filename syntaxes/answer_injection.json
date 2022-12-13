@@ -12,6 +12,10 @@
 				"name": "cornell.answer"
 			},
 			{
+				"name": "cornell.question.id",
+				"match": "{#q[0-9]{,4}}$"
+			},
+			{
 				"name": "supermemo.cloze",
                 "match": "{{2}(.*?)}{2}((?:\\([^)]*?\\))?)",
 				"captures": {

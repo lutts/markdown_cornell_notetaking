@@ -8,13 +8,19 @@ settings.json
             {
                 "scope": "cornell.question",
                 "settings": {
-                    "foreground": "#D19000",
+                    "foreground": "#C0C040",
                 }
             },
             {
                 "scope": "cornell.question.marker",
                 "settings": {
                     "foreground": "#FF8000",
+                }
+            },
+            {
+                "scope": "cornell.question.id",
+                "settings": {
+                    "foreground": "#804000",
                 }
             },
             {
@@ -47,6 +53,12 @@ settings.json
                     "foreground": "#00A000",
                 }
             },
+            {
+                "scope": "markup.quote.markdown",
+                "settings": {
+                    "foreground": "#A0A0A0",
+                }
+            }
         ]
     },
 ```
@@ -59,7 +71,7 @@ vsce package
 
 ## Example
 
-Q: do normal markdown syntax, such as *italic*, **bold**, working in Q&A?
+Q: do normal markdown syntax, such as *italic*, **bold**, working in Q&A? {#q1234}
 
 A: yes, {{syntax *highlight*}} for {{**normal** markdown}}(such as *italic*), or **bold** is not affected.
 

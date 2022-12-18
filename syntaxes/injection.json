@@ -21,6 +21,16 @@
 					}
 				],
 				"while": "(^|\\G)((?=\\s*[-=]{3,}\\s*$)|[ ]{4,}(?=\\S))"
+			},
+			{
+				"name": "cornell.question.hidden",
+				"begin": "(^|\\G)((?:q|Q)h:) (?=\\S)",
+				"beginCaptures": {
+					"2": {
+						"name": "cornell.question.marker"
+					}
+				},
+				"while": "(^|\\G)((?=\\s*[-=]{3,}\\s*$)|[ ]{4,}(?=\\S))"
 			}
 		]
 	  }

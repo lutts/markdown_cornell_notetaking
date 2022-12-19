@@ -35,6 +35,10 @@
                         ]
 					}
 				}
+			},
+			{
+				"name": "apa.lettered.list",
+				"match": " \\([0-9a-zA-Z]\\) "
 			}
 		]
 	  }
